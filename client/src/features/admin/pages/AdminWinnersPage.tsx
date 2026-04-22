@@ -72,7 +72,7 @@ export function AdminWinnersPage() {
                     {w.proof_url && (
                       <Button variant="outline" size="sm" asChild>
                         <a
-                          href={`http://localhost:5000${w.proof_url}`}
+                          href={`http://localhost:3000${w.proof_url}`}
                           target="_blank"
                           rel="noopener noreferrer"
                         >

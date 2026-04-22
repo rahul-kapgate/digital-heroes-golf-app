@@ -20,7 +20,7 @@ npm install
   - "Yearly Plan" — ₹5000/year recurring
 - Copy price IDs to `.env`
 - Install Stripe CLI: `brew install stripe/stripe-cli/stripe`
-- Run: `stripe listen --forward-to localhost:5000/api/subscriptions/webhook`
+- Run: `stripe listen --forward-to localhost:3000/api/subscriptions/webhook`
 - Copy the webhook secret to `.env`
 
 ### 4. Set up Resend
